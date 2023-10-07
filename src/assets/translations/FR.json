@@ -1,0 +1,12 @@
+{
+  "identity": {
+    "title": "Je m'appelle {firstname}"
+  },
+  "title":{
+    "experiences":"Experiences",
+    "skills": "Competences",
+    "studies": "Etudes",
+    "interests": "Loisirs"
+
+  }
+}

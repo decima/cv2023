@@ -1,0 +1,23 @@
+[
+  {
+    "description": "Auto-\u00e9cole en ligne. Conception et d\u00e9veloppement d'APIs. Support des d\u00e9veloppeurs, revue de code et travail avec PHP et Symfony. Support de l'\u00e9quipe Data."
+  },
+  {
+    "description": "Solution B2B d'analyse automatisée de données de tickets de caisse. Conception et mise en place d'API externes pour les clients (Go, PHP), et internes pour les différents microservices (Go, PHP, Kotlin, Python, C++)"
+  },
+  {
+    "title": "Formateur",
+    "description": "Docker et Linux Avancé – Niveau Master"
+  },
+  {
+    "title": "Formateur",
+    "description": "Symfony, Structure de la donnée et Bases de données – Niveau Bachelor"
+  },
+  {
+    "title": "Formateur",
+    "description": "PHP, Laravel et Symfony – Adultes en reconversion professionnelle"
+  },
+  {
+    "description": "Solution d'estimation, d'achat et revente d'objets d'occasion sur les différentes marketplaces."
+  }
+]

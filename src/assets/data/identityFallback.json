@@ -1,0 +1,22 @@
+{
+  "name": {
+    "title": "Mr.",
+    "first": "Henri",
+    "last": "LARGET"
+  },
+  "location": "Annecy, France",
+  "email": "henri@larget.fr",
+  "phone": "+33 6 81 79 05 20",
+  "picture": {
+    "large": "https://www.gravatar.com/avatar/0b643467175470ed26f1f01fee5e911c.jpeg?size=1000"
+  },
+  "job": {
+    "title": "Backend Engineer"
+  },
+  "description": "Looking for new challenges",
+  "socials": {
+    "github": "https://github.com/decima",
+    "linkedin": "https://www.linkedin.com/in/d3cima/",
+    "stackoverflow": "https://stackoverflow.com/users/3717767/d3cima"
+  }
+}

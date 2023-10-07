@@ -1,0 +1,117 @@
+[
+  {
+    "title": "Techlead Backend",
+    "company": "lePERMISLIBRE",
+    "company_doing": "Online drivingschool",
+    "description": "In an online driving school, I am responsible of concieving and developing APIs. I also do code reviews and help the team to improve their skills. I'm also a support of the data team.",
+    "from": "2021-12-01",
+    "to": null,
+    "displayInResume": true,
+    "icon": "swap_driving_apps_wheel",
+    "keywords": [
+      "PHP",
+      "Symfony",
+      "MySQL",
+      "AWS",
+      "DBT",
+      "Tableau",
+      "BigQuery"
+    ]
+  },
+  {
+    "title": "CTO",
+    "company": "Aboutgoods Company",
+    "company_doing": "Data analysis",
+    "description": "A start up specialized in extracting data from receipts. I was in charge of imagining, conceiving and developing the different microservices. I was also in charge of the infrastructure and the deployment of the different services.",
+    "from": "2015-09-28",
+    "to": "2021-11-25",
+    "displayInResume": true,
+    "icon": "receipt_long",
+    "keywords": [
+      "Symfony",
+      "Golang",
+      "DevOps",
+      "Python",
+      "PHP",
+      "PostgreSQL",
+      "Elasticsearch",
+      "RabbitMQ",
+      "Neo4j",
+      "Docker Swarm",
+      "Kotlin"
+    ]
+  },
+  {
+    "title": "Teacher",
+    "company": "MyDigitalSchool",
+    "company_doing": "School",
+    "description": "Docker and Advanced Linux for Master's degree students.",
+    "from": "2022-01-01",
+    "to": null,
+    "displayInResume": true,
+    "icon": "school",
+    "keywords": [
+      "Docker",
+      "Linux",
+      "Monitoring"
+    ]
+  },
+  {
+    "title": "Teacher",
+    "company": "CCI Haute-Savoie",
+    "company_doing": "School",
+    "description": "Symfony, Database structures and Git for Bachelor's degree students.",
+    "from": "2020-12-01",
+    "to": null,
+    "displayInResume": true,
+    "icon": "school",
+    "keywords": [
+      "PHP",
+      "Symfony",
+      "PostgreSQL",
+      "MongoDB",
+      "Elasticsearch",
+      "Neo4J",
+      "Redis",
+      "Git"
+    ]
+  },
+  {
+    "title": "Teacher",
+    "company": "Le Campus Numérique in the Alps",
+    "company_doing": "School",
+    "description": "PHP, Laravel and Symfony for adults in reconversion.",
+    "from": "2018-02-01",
+    "to": null,
+    "displayInResume": true,
+    "icon": "school",
+    "keywords": [
+      "PHP",
+      "Symfony",
+      "MySQL",
+      "AWS",
+      "DBT",
+      "Tableau",
+      "BigQuery"
+    ]
+  },
+  {
+    "title": "Techlead",
+    "company": "Discoo.fr",
+    "company_doing": "Reseller of goods",
+    "description": "A solution of estimating, buying and selling second-hand goods on marketplaces.",
+    "from": "2014-09-01",
+    "to": "2015-08-01",
+    "displayInResume": true,
+    "icon": "album",
+    "keywords": [
+      "PHP",
+      "Symfony",
+      "MySQL",
+      "AWS",
+      "DBT",
+      "Tableau",
+      "BigQuery"
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Piano",
+    "description": "since I'm 5 years old",
+    "icon": "piano"
+  },
+  {
+    "title": "Dungeon Master",
+    "description": "in role playing games",
+    "icon": "casino"
+  },
+  {
+    "title": "DIY",
+    "description": "3D Printing, Electronics, drawing",
+    "icon": "brush"
+  }
+]
