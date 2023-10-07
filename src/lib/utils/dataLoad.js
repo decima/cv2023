@@ -5,7 +5,7 @@ export async function dataLoad(resource) {
     return new Promise(async (resolve, reject) => {
         let content = {}
         try {
-             content = (await import("../../assets/data/" + resource + "Fallback.json")).default;
+            content = (await import("../../assets/data/" + resource + "Fallback.json" /* @vite-ignore */)).default;
 
         } catch (e) {
             reject(e);
@@ -13,7 +13,7 @@ export async function dataLoad(resource) {
 
         const resourceFile = "../../assets/data/" + resource + import.meta.env.VITE_LOCALE + ".json";
         try {
-            const localized = (await import(resourceFile)).default
+            const localized = (await import(resourceFile  /* @vite-ignore */)).default
             content = _.merge(content,localized);
         } catch (e) {
             console.error("Error loading " + resourceFile + ", using fallback only ("+e+")");

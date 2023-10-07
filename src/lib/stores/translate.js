@@ -8,10 +8,11 @@ async function initTranslator() {
 
     async function loadTranslations() {
         let content = {}
-        content = await import( "../../assets/translations/fallback.json");
+        content = await import( "../../assets/translations/fallback.json" /* @vite-ignore */);
         try {
             const resourceFile = "../../assets/translations/" + import.meta.env.VITE_LOCALE + ".json";
-            content = _.merge(content, await import(resourceFile));
+            const extra = await import(resourceFile /* @vite-ignore */)
+            content = _.merge(content, extra);
         } catch (e) {
             console.error(e)
             // do nothing, use fallback
@@ -21,12 +22,12 @@ async function initTranslator() {
 
     await loadTranslations()
 
-    return readable((key, values=[]) => {
+    return readable((key, values = []) => {
         let paragraph = _.get(translations, key)
-        if(!paragraph){
+        if (!paragraph) {
             return key;
         }
-        if(values.length === 0){
+        if (values.length === 0) {
             return paragraph;
         }
         const regex = /\{[^\}]+\}/g;
