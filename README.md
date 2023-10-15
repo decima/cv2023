@@ -12,6 +12,13 @@ yarn
 yarn dev
 ```
 
+or with docker :
+
+```bash
+docker compose run node yarn
+docker compose up -d
+```
+
 Then visit the url given by the console (default to localhost:5173 )
 
 Then you can **print** the page as a PDF.
